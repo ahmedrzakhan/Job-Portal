@@ -1,24 +1,287 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      Home Page
-    </title>
-    <!-- Bootstrap File -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- Main Container -->
-    <div>
-      <h1>Home Page</h1>
-    </div>
 
-    <!-- Javascipt File -->
-    <script src="home.js" type="text/javascript"></script>
-  </body>
+<head>
+  <title>
+    Home Page
+  </title>
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!-- Css File -->
+  <link rel="stylesheet" href="home.css" />
+</head>
+
+<body>
+  <!-- Main Container -->
+  <div>
+    <!-- Navbar Header -->
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-between bg-white shadow-sm p-3 bg-white rounded">
+      <div class="navbar-nav h2">
+        <a class="nav-item nav-link font-weight-light text-danger px-4" href="#">W O R K</a>
+      </div>
+      <div class="navbar-nav h5">
+        <a class="nav-item nav-link font-weight-light text-white darkBlueBackground rounded mr-4 px-5"
+          href="../Login/login.html">Login</a>
+      </div>
+    </nav>
+    <!-- Fluid Container -->
+    <div class="container-fluid">
+      <!-- Row -->
+      <div class="row mt-5">
+        <!-- Column -->
+        <div class="col-sm-9 col-md-6 col-lg-6 offset-sm-1 offset-md-1 offset-lg-1">
+          <h1 class="darkBlueText bigFontSize">
+            Get matched with a job you love, anywhere.
+          </h1>
+        </div>
+      </div>
+      <!-- Row -->
+      <div class="row">
+        <!-- Column -->
+        <div class="col-sm-9 col-md-5 col-lg-4 offset-sm-1 offset-md-1 offset-lg-1">
+          <h5 class="font-weight-light darkBlueText lineHeight30">
+            Create a free profile to unlock the opportunity for companies to
+            apply to interview you with salary details upfront.
+          </h5>
+        </div>
+        <!-- Column -->
+        <div class="col-sm-9 col-md-5 col-lg-4 offset-sm-1 offset-md-1 offset-lg-2 text-center text-danger">
+          <h5>Millions of</h5>
+          <h5>vetted candidates</h5>
+        </div>
+      </div>
+
+      <!-- Row -->
+      <div class="row bg-danger text-white pt-1 mt-3">
+        <!-- Column -->
+        <div class="col-sm-7 col-md-6 col-lg-4 offset-md-1 offset-lg-5 mt-5">
+          <button type="button" class="btn btn-lg bg-white greyText px-5 rounded-pill">
+            React.js
+          </button>
+          <button type="button" class="btn btn-lg bg-white greyText px-5 rounded-pill">
+            Angular.js
+          </button>
+          <button type="button" class="btn btn-lg bg-white greyText px-4 py-2 ml-3 rounded-pill mt-3">
+            Python
+          </button>
+          <button type="button" class="btn btn-lg bg-white greyText px-4 py-2 rounded-pill mt-3">
+            JavaScript
+          </button>
+          <button type="button" class="btn btn-lg bg-white greyText px-4 py-2 rounded-pill mt-3">
+            C++
+          </button>
+          <button type="button" class="btn btn-lg bg-white greyText px-4 py-2 ml-5 rounded-pill mt-3">
+            Android
+          </button>
+          <button type="button" class="btn btn-lg bg-white greyText px-4 py-2 rounded-pill mt-3">
+            IOS
+          </button>
+          <button type="button" class="btn btn-lg bg-white greyText px-4 py-2 rounded-pill mt-3">
+            Mentorship
+          </button>
+        </div>
+        <!-- Column -->
+        <div class="col-sm-5 col-md-4 col-lg-3 offset-md-1 offset-lg-0">
+          <img
+            src="https://hired.com/assets/home/index/face-left-min-c6bc0dc993ddd95e06b358f0ef462ced944fa666f4de8fddda78683dda762c7d.png"
+            alt="image" class="img-fluid" />
+        </div>
+      </div>
+      <!-- Row -->
+      <div class="row bg-danger text-white pb-1">
+        <!-- Column -->
+        <div class="col-sm-4 col-md-3 col-lg-3 offset-md-1 lg-1">
+          <h1>“</h1>
+          <h2 class="font-weight-light">
+            This is what recruiting should look like.
+          </h2>
+          <h3>Joseph G.</h3>
+          <p>Software Engineer</p>
+        </div>
+        <!-- Column -->
+        <div class="col-sm-4 col-md-3 col-lg-3 offset-md-1 offset-lg-0">
+          <img
+            src="https://hired.com/assets/home/index/welcome-job-min-54235cf4f416bc0d441b4ebd90390b5f744ccb4abd1c167ff0a20ad69000f2eb.png"
+            alt="image" class="img-fluid" />
+        </div>
+        <!-- Column -->
+        <div class="col-sm-4 col-md-3 col-lg-3 offset-md-1 offset-lg-0">
+          <button type="button" class="btn btn-lg bg-white greyText text-secondary px-4 rounded-pill mt-2">
+            Remote Work
+          </button>
+          <button type="button" class="btn btn-lg bg-white greyText px-4 rounded-pill mt-2">
+            WFH
+          </button>
+          <button type="button" class="btn btn-lg bg-white greyText px-5 rounded-pill mt-2">
+            401K
+          </button>
+          <button type="button" class="btn btn-lg bg-white greyText px-5 rounded-pill mt-2">
+            Social Impact
+          </button>
+        </div>
+      </div>
+      <!-- Row -->
+      <div class="row mt-5 pt-3">
+        <!-- Column -->
+        <div class="col-sm-4 col-md-4 col-lg-3 offset-lg-1">
+          <h6 class="text-danger">MARKETS</h6>
+          <h1 class="darkBlueText">
+            Find your dream job where you least expect it.
+          </h1>
+          <p class="mt-3 greyText">
+            Hired supports <span class="text-danger">50+</span>&nbsp; roles in
+            <span class="text-danger">14</span>&nbsp;cities worldwide
+            including remote roles.
+          </p>
+        </div>
+        <!-- Column -->
+        <div class="col-sm-8 col-md-8 col-lg-6 offset-lg-1">
+          <img
+            src="https://hired.com/assets/home/index/cities-map--usa-min-95bde764f59517d5de656025f593e1f47c43f6970b121c0ff8cf86104f8e007f.png"
+            alt="image" class="img-fluid" />
+        </div>
+      </div>
+      <!-- Row -->
+      <div class="row mt-5 pt-5">
+        <!-- Column -->
+        <div class="col-sm-10 col-md-10 col-lg-8 offset-sm-1 offset-md-1 offset-lg-2">
+          <!-- Card -->
+          <div class="card border-danger">
+            <div class="card-body text-center">
+              <p class="text-danger">R E M O T E &nbsp; W O R K</p>
+              <h1 class="darkBlueText">
+                We believe in access to opportunity
+              </h1>
+              <!-- Nested Row -->
+              <div class="row">
+                <div class="col-sm-8 col-md-8 col-lg-8 offset-sm-2 offset-md-2 offset-lg-2">
+                  <p class="greyText">
+                    As the world evolves, so does the way we work. Joining a
+                    distributed team offers tech talent access to thousands of
+                    new job opportunities while companies stay ahead of the
+                    curve with remote work.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Row -->
+      <div class="row mt-5 pt-5">
+
+        <!-- Column -->
+        <div class="col-sm-10 col-md-5 col-lg-4 offset-sm-1 offset-md-1 offset-lg-2">
+          <!-- Card -->
+          <div class="card py-3 shadow">
+            <!-- Card Body -->
+            <div class="card-body text-center">
+              <p class="text-danger">10K+ COMPANIES ON WORK</p>
+              <!-- Nested Row -->
+              <div class="row">
+                <div class="col-sm-10 col-md-8 col-lg-5 offset-sm-1 offset-md-2 offset-lg-1">
+                  <img
+                    src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/IN/optimized/logo/dunzo-logo.png"
+                    alt="image" class="img-fluid" />
+                </div>
+                <div class="col-sm-10 col-md-8 col-lg-5 offset-sm-1 offset-md-2 offset-lg-0">
+                  <img
+                    src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/IN/logos/pharm-easy.png"
+                    alt="image" class="img-fluid" />
+                </div>
+              </div>
+              <!-- Nested Row -->
+              <div class="row">
+                <div class="col-sm-10 col-md-8 col-lg-5 offset-sm-1 offset-md-2 offset-lg-1">
+                  <img src="https://www.paypalobjects.com/marketing/web/in/online-shopping/logos/tatasky-logo.png"
+                    alt="image" class="img-fluid" />
+                </div>
+                <div class="col-sm-10 col-md-8 col-lg-5 offset-sm-1 offset-md-2 offset-lg-0">
+                  <img src="https://www.paypalobjects.com/marketing/web/in/online-shopping/logos/big-basket-logo.png"
+                    alt="image" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column -->
+        <div class="col-sm-10 col-md-5 col-lg-4 offset-sm-1 offset-md-0 offset-lg-0 mt-sm-3 mt-md-0 mt-lg-0">
+          <!-- Card -->
+          <div class="card pt-3 pb-2 shadow">
+            <!-- Card Body -->
+            <div class="card-body text-center">
+              <!-- Nested Row -->
+              <div class="row">
+                <div class="col-sm-10 col-md-10 col-lg-10 offset-sm-1 offset-md-1 offset-lg-1">
+                  <p class="text-danger">For Employers</p>
+                  <h2 class="darkBlueText">
+                    Hire better tech talent, faster.
+                  </h2>
+                  <h5 class="font-weight-light lineHeight30">Looking to hire? The candidates on Hired are qualified and
+                    ready to interview.</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Row -->
+      <div class="row my-5 pt-5">
+        <!-- Column -->
+        <div class="col-sm-10 col-md-8 col-lg-6 offset-sm-1 offset-md-2 offset-lg-3">
+          <!-- Nested Row -->
+          <div class="row">
+            <!-- Column -->
+            <div class="col-sm-5 col-md-4 col-lg-3">
+              <img
+                src="https://hired.com/assets/home/index/kyle-braintree-min-74b78ca5a52a9a4a8d620b73db8e5723c7231b38355c06a955527a6f76fe2b0d.png" />
+            </div>
+            <div class="col-sm-7 col-md-8 col-lg-8 offset-lg-1 mt-2">
+              <h1 class="text-danger">“</h1>
+              <h3 class="darkBlueText font-weight-light">We call it our cheat code. To find qualified talent that’s
+                looking ... half the battle is already won.
+              </h3>
+              <h4 class="darkBlueText mt-3">Kyle Barbato</h4>
+              <p class="text-muted">Sr. Manager, Talent Acquisition, Braintree</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <!-- Row -->
+      <div class="row bg-dark pb-5">
+        <div class="col-sm-8 col-md-6 col-lg-3 offset-sm-2 offset-md-0 offset-lg-3">
+          <!-- Card -->
+          <div class="card bg-dark text-center mt-4">
+            <!-- Card Body -->
+            <div class="card-body text-light">
+              <h4>Candidate Login</h4>
+              <p class="text-info">Complete login to start finding your dream job.</p>
+              <button type="button" id="candidateLogin" class="btn btn-outline-light px-5">Login to get hired</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8 col-md-6 col-lg-3 offset-sm-2 offset-md-0 offset-lg-0">
+          <!-- Card -->
+          <div class="card bg-dark text-center mt-4">
+            <!-- Card Body -->
+            <div class="card-body text-light">
+              <h4>Employer Login</h4>
+              <p class="text-info">Login in and see how you match up with top tech talent.</p>
+              <button type="button" class="btn btn-outline-light px-5">Login to hire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Javascipt File -->
+  <script src="home.js" type="text/javascript"></script>
+</body>
+
 </html>
