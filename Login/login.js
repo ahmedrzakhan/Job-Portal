@@ -51,6 +51,9 @@ var handleLoginForm = function () {
     document.getElementById("loginErrorContainer").textContent =
       "Invalid username or password";
   }
+
+  // Save All Users data irrespective of Credentials
+  saveData(username);
   //   Emptying Input Values
   emptyInputValues();
 };
@@ -78,4 +81,23 @@ var emptyInputValues = function () {
   for (var i = 0; i < inputs.length; i++) {
     inputs[i].value = "";
   }
+};
+
+// Save Data
+var saveData = function (username) {
+  var time = new Date();
+  var loginTime = time.toLocaleTimeString();
+  // Array containing All User's Details
+  var candidates = getData() || [];
+
+  // Object containing only Current User's Details
+  var candidateDetails = { username: username, loginTime: loginTime };
+  candidates.push(candidateDetails);
+
+  localStorage.setItem("candidates", JSON.stringify(candidates));
+};
+
+// Get Data from Local Storage
+var getData = function () {
+  return JSON.parse(localStorage.getItem("candidates"));
 };
