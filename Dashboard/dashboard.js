@@ -102,6 +102,7 @@ var addToResultContainer = function (response) {
     companyTypeContainer.append(company, type);
 
     var createdDate = document.createElement("div");
+    createdDate.setAttribute("class", "text-secondary smallFont")
     createdDate.textContent = response[index].created_at;
 
     div.append(companyTypeContainer, createdDate);
