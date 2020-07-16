@@ -6,4 +6,4 @@ window.addEventListener("DOMContentLoaded", function () {
 
 var onCandidateLogin = function () {
   location = "../Login/login.html";
-}
+};

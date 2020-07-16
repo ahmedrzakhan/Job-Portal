@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <title>
+        Dashboard Page
+    </title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/54ad569e59.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div>
+        <!-- Navbar Header -->
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm p-3 mb-5 bg-white rounded">
+            <a class="navbar-brand text-danger" href="#">
+                <h3>W O R K</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup2"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup2">
+                <div class="navbar-nav ml-auto h5 font-weight-light">
+                    <a class="nav-item nav-link text-dark px-4" href="#">Admin</a>
+                    <a class="nav-item nav-link text-dark px-4" href="#">Recruiter</a>
+                    <a class="nav-item nav-link font-weight-light text-white bg-danger rounded mr-4 px-5"
+                        href="../Home/home.html">Logout</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <!-- Form -->
+            <form>
+                <!-- Row -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <h3 class="text-dark">One Search, Millions of Jobs</h3>
+                    </div>
+                </div>
+                <!-- Row -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-sm-12 col-md-5 col-lg-5">
+                        <!-- Description -->
+                        <div class="form-group">
+                            <label for="description">Description</label>
+                            <input type="text" name="description" class="form-control">
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="col-sm-12 col-md-5 col-lg-5">
+                        <!-- Location -->
+                        <div class="form-group">
+                            <label for="location">Location</label>
+                            <input type="text" name="location" class="form-control">
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="col-sm-12 col-md-2 col-lg-2">
+                        <!-- Sumbit Button -->
+                        <button type="submit" class="btn btn-lg btn-primary mt-4">Search</button>
+                    </div>
+                </div>
+            </form>
+            <!-- Search Results Container -->
+            <div id="searchResultsContainer"></div>
+        </div>
+
+
+    </div>
+    <!-- Javascript File -->
+    <script type="text/javascript" src="dashboard.js"></script>
+    <!-- Bootsrap Files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

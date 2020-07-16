@@ -1,17 +1,17 @@
 .darkBlueText {
-  color: rgba(45,58,79,0.9);
+  color: rgba(45, 58, 79, 0.9);
 }
 .greyText {
-    color: #5F6E86;
+  color: #5f6e86;
 }
 .darkBlueBackground {
-  background: rgba(45,58,79,0.9);
+  background: rgba(45, 58, 79, 0.9);
 }
 
 .bigFontSize {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .lineHeight30 {
-    line-height: 30px;
+  line-height: 30px;
 }

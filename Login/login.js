@@ -46,7 +46,7 @@ var handleLoginForm = function () {
   if (response.success) {
     console.log("Successfully Logged in");
     // Navigate to Home page
-    location = "../Home/home.html";
+    location = "../Dashboard/dashboard.html";
   } else {
     document.getElementById("loginErrorContainer").textContent =
       "Invalid username or password";
