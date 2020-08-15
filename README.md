@@ -29,3 +29,6 @@ Screenshots in Small Screen
 ![home_sm_1](https://github.com/ahmedrzakhan/Job-Portal/blob/master/Images/home_sm_1.png)
 ![login_sm](https://github.com/ahmedrzakhan/Job-Portal/blob/master/Images/login_sm.png)
 ![dashboard_sm](https://github.com/ahmedrzakhan/Job-Portal/blob/master/Images/dashboard_sm.png)
+
+## Acknowledgement
+[Hired](https://hired.com) I used their website for reference. So the team deserves credit for the UI.
